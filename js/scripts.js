@@ -7,7 +7,7 @@ console.log(array);
 var name = 'Tola';
 var indexOfNameInTheArray = array.indexOf(name);
 
-if (indexOfNameInTheArray >= -1) {
+if (indexOfNameInTheArray < 0) {
 	array.push(name);
 }
 
